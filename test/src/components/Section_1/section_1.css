@@ -1,0 +1,84 @@
+.card__uno {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+}
+
+.card__due {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+}
+
+.card__tre {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+}
+
+.card__quattro {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+}
+
+.img__legendary {
+    
+    width: 220px;
+    height: 220px;
+
+   margin-top: 5px;
+}
+
+.img__epic {
+    
+    width: 220px;
+    height: 220px;
+
+   margin-top: 5px;
+}
+.img__rare {
+    
+    width: 220px;
+    height: 220px;
+
+   margin-top: 5px;
+}
+.img__common {
+    
+    width: 220px;
+    height: 220px;
+
+   margin-top: 5px;
+}
+
+.legendary__card-title,
+.epic__card-title,
+.rare__card-title,
+.common__card-title  {
+    font-family: var(--font-family_2);
+    font-size: 36px;
+}
+
+/**
+ * ----------------------------------------
+ * setting view from tablet & smartphone
+ * ----------------------------------------
+ **/
+
+ @media screen and (max-width: 1024px) {
+    .rarity__container {
+        padding: 10px;
+        margin-left: -70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rarity__container {
+        margin-left: 10px;
+    }
+}
