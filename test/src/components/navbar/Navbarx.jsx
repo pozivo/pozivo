@@ -7,9 +7,9 @@ import './navbar.css';
 const Navbarx = () => {
     return (
         <Navbar collapseOnSelect expand="lg">
-            <Container>
+            <Container className='Nav'>
                 <Navbar.Brand href="#home">
-                <img src={logo} alt="logo" />
+                    <img src={logo} alt="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -19,10 +19,11 @@ const Navbarx = () => {
                         <Nav.Link href="#Faq">Faq</Nav.Link>
                         <Nav.Link href="#Roadmap">Roadmap</Nav.Link>
                         <Nav.Link href="https://opensea.io/collection/yoomans">Gallery</Nav.Link>
+                        <Nav.Link href="#Roadmap">Mint</Nav.Link>
+                        <Nav.Link href="#Roadmap">Stake</Nav.Link>
                     </Nav>
                     <Nav>
-                    <Nav.Link href="#Mint">Mint</Nav.Link>
-                    <Button variant="primary">Stake</Button>
+                        <Button className='Botton'>Connect Wallet</Button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
@@ -31,3 +32,4 @@ const Navbarx = () => {
 }
 
 export default Navbarx
+

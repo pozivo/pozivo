@@ -1,18 +1,69 @@
+.Nav {
+    width: 100%;
+    max-width: 1440px;
+}
+
 .navbar-brand img {
     width: 250px;
     height: 40px;
 }
 
+.me-auto {
+    display: flex;
+    margin-left: 20vh;
+   
+}
+
 .nav-link {
-    font-family: var(--font-family);
-    color:  yellow!important;
+    text-transform: capitalize;
+    font-family: var(--font-family_2);
+    color:  #bbb2ce!important;
     margin: 0 10px;
-    margin-left: 45px;
-    font-size: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.nav-link:hover {
+    color:  #fff!important;  
 }
 
 .navbar-nav {
     margin-right: 10px;
+}
+
+.Botton {
+    background-color: transparent;
+    color: #35f0d0;
+    border: 2px solid #35f0d0;
+}
+
+.Botton:hover{
+    background-color: #35f0d0;
+    color: #341762;
+    font-weight: 600;
+    border: 2px solid #35f0d0;
+    transform: translateY(4px);
+}
+
+.Botton:active {
+  transform: translateY(4px);
+  border: 2px solid #35f0d0;
+  color: #341762;
+  border-color: #35f0d0;
+  font-weight: 500;
+  box-shadow: none!important;
+}
+
+.Botton:focus {
+  border: 2px solid #35f0d0;
+  box-shadow: #35f0d0;
+  color: #341762;
+  border-color: #35f0d0;
+  background-color: #35f0d0;
+  font-weight: 500;
+  box-shadow: none;
 }
 
 @media only screen and (max-width: 1024px) {

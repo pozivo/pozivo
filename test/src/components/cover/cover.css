@@ -1,33 +1,37 @@
+.Cover {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50px;
+}
+
 .cover__container {
-    
-    padding: 20px;
-    width: 120%;
-    
+    padding: 20 10px;
+}
+
+.cover__container img {
+    width: 780px;
 }
 
 .story__container {
-    
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column-reverse;
-    padding: 60px;
+    margin-top: 30%;
+    margin-left: 10%;
+    padding: 20px;
 }
+
 
 .cover__story {
     justify-content: center;
-    padding: 50px;
+    padding: 10px;
 }
 
-.bottn {
-    width: 180px;
-    margin: 10px 10px;
-}
+
 
 
 @media only screen and (max-width: 1440px) {
     .story__container {
-        padding: 90px;
+        padding: 10px;
     }
   }
 
