@@ -1,0 +1,39 @@
+.header__container {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282c34;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Book__icon,
+.Book__icon:visited  {
+    margin-left: 50px;
+    color: #fff;
+}
+
+.Book__add {
+    display: flex;
+    padding: 0 auto;
+    width: 15vw;
+}
+
+.Book__add p, .Book__add p:visited {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 auto;
+    padding-right: 10px;
+    width: 135px;
+    color: #fff;
+}
+
+.Book__add svg {
+    display: flex;
+    padding: 0 auto;
+    margin-top: 35px;
+}
+

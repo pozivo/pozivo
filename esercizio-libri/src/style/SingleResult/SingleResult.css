@@ -1,0 +1,40 @@
+.container__sr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 220px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(194, 175, 151);
+    border-radius: 10px;
+}
+
+.result__container {
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1440px;
+    padding: 10px;
+}
+
+.book__container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.img__copertina {
+    display: flex;
+    justify-content: center;
+    max-height: 220px;
+    max-width: 190px;
+    padding: 25px;
+}
+
+.titolo__container {
+    font-size: 22px;
+    max-height: 210px;
+    max-width: 240px;
+}

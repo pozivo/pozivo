@@ -1,0 +1,30 @@
+.style__info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+    margin-left: 70px;
+}
+
+.style__container h2 {
+    color: #ff0076;
+    padding: 10px;
+    font-size: 28px;
+}
+
+.style__container p {
+    font-size: 18px;
+}
+
+.style__img {
+    display: flex;
+    width: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    border: 1px solid red;
+}
+
+
+
