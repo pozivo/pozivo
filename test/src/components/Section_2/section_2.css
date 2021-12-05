@@ -4,6 +4,76 @@
   padding: 30px;
   background-color: transparent;
   border: transparent;
-  
 }
 
+.Faq {
+  margin-bottom: 50px;
+}
+
+.Faq__item {
+  padding: 10px;
+  background-color: transparent;
+  border: transparent;
+  color: aqua!important;
+}
+
+.Faq, .Faq button, Faq button, .accordion-button {
+  background-color: transparent!important;
+  border: aqua!important;
+  color: aqua!important;
+  box-shadow: none!important;
+}
+.accordion-button {
+  color: aqua!important;
+}
+.accordion-button {
+  font-weight: 800;
+}
+.accordion-body {
+  color: #bbb2ce!important;
+}
+
+.FAQ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: aqua!important;
+  padding: 10px;
+}
+
+.Card2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: transparent;
+  border: transparent;
+}
+
+.TITLE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BODY {
+  margin: 20px;
+}
+
+.SELECT {
+  background-color: aqua;
+}
+
+.img__container {
+  display: flex;
+  align-items: center;
+}
+
+.robot-jump {
+  margin: auto;
+  width: 150px;
+  height: 250px;
+}

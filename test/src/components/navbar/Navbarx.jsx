@@ -18,7 +18,7 @@ const Navbarx = () => {
                         <Nav.Link href="#Rarity">Rarity</Nav.Link>
                         <Nav.Link href="#Faq">Faq</Nav.Link>
                         <Nav.Link href="#Roadmap">Roadmap</Nav.Link>
-                        <Nav.Link href="https://opensea.io/collection/yoomans">Gallery</Nav.Link>
+                        <Nav.Link href="https://opensea.io/collection/yoomans">Collection</Nav.Link>
                         <Nav.Link href="#Roadmap">Mint</Nav.Link>
                         <Nav.Link href="#Roadmap">Stake</Nav.Link>
                     </Nav>
